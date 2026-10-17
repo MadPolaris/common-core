@@ -57,6 +57,6 @@ libraryDependencies ++= Seq(
   "org.scalikejdbc" %% "scalikejdbc-config" % ScalikeJdbcVersion,
   "com.zaxxer" % "HikariCP" % "3.4.5",
   "org.reactivemongo" %% "reactivemongo" % "1.1.0-noshaded-RC11",
-  "com.thesamet.scalapb" %% "scalapb-runtime" % scalapb.compiler.Version.scalapbVersion % "protobuf",
+  "com.thesamet.scalapb" %% "scalapb-runtime" % "0.11.14" % "protobuf",
   "com.github.scullxbones" %% "akka-persistence-mongo-scala" % MongoPluginVersion
 )
